@@ -1,0 +1,78 @@
+
+.css-1l8j5k8{
+  background-color: #000B36 !important;
+}
+  .xdd{
+    background-color: #000B36 !important;
+    color: #fff !important;
+    font-weight: 100 !important;
+    /* display: flex !important; */
+    /* align-items:flex-end !important; */
+    /* justify-content: flex-end !important; */   
+  }
+.MuiDataGrid-footerContainer{
+  background-color: white !important;
+  color : #ED6C02 !important;
+}
+.MuiDataGrid-columnHeadersInner {
+  background-color: #ED6C02 !important;
+  font-weight: 10px !important;
+
+}
+  .css-10hburv-MuiTypography-root{
+    font-size: .9vw !important;
+  }
+  .css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+    background-color: #000B36 !important;
+  }
+  .pulledright{
+    margin-left: 'auto' !important;
+    margin-right: -12 !important;
+  }
+  #pulled{
+    margin-left: 'auto';
+    margin-right: -12;
+  }
+  .pulledleft{
+    margin-right: 16 !important;
+    margin-left: -12 !important;
+  }
+  #alerta{
+    background-color: #ED6C02 !important;
+    color:white;
+  }
+  .blanco{
+    color:black;
+    background-color:rgb(16, 8, 24) !important;
+  }
+.jumbotron{
+  background-color: #FD5001 !important;
+}
+.titulopage{
+  color: #FD4F00 !important;
+  border-color: #010B36 !important;
+}
+.subtitulopage{
+  color: #303E48 !important;
+}
+td:hover{
+  cursor:move;
+  }
+  .MuiButton-containedPrimary{
+    background-color: #010B36 !important;
+  }
+  .swal-button{
+    background-color: #010B36 !important;
+  }
+  .fondo{
+    background-color: #010B36 !important;
+    border-color: #FD4F00 !important;;
+  }
+  .modal-dialog{
+    margin-top: 7% !important;
+    margin-bottom: 5% !important;
+  }
+  .modal-body{
+    width: 100%;
+    height: 5% !important;
+  }

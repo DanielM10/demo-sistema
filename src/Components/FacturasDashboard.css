@@ -1,0 +1,135 @@
+.lnkblanco {
+    color: white !important;
+    font-size: .875rem;
+  }
+
+.Fixedpage{
+margin-left: 7% !important;
+margin-right: 7% !important;
+position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  align-content: center;
+}
+.headertbl{
+    color : orange;
+    background-color: black;
+}
+#table tr:nth-child(2n+1){background: blue;}
+tr:ntr-child(even) {
+    background-color: gray;
+  }
+tr:nth-child(even) {
+    background-color: gray;
+  }
+  .status-dot-green {
+    background: #6EE561;
+}
+.status-dot-red {
+    background: #f20000;
+}
+
+.status-dot.gray .dot{
+    background: #a5a5a5;
+}
+
+.status-dot.orange .dot{
+    background: #ff8400;
+}
+.status-dot{
+    font-weight: bold;
+    display: inline-block;
+}
+.status-dot .dot{
+    height: 7px;
+    width: 7px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 3px;
+}
+.separado{
+    margin-left: 4%;
+}
+.label{
+    margin-left: 4%;
+}
+.separador{
+    margin-left: 2%; 
+    margin-right: 2%;
+    font-weight: bolder;
+}
+
+.separatedv2{
+    position: absolute;
+    right: 0%;
+    width: 100%;
+    height: 79%!important;
+}
+.adjusted{
+    margin-right: 300px;
+}
+.parpadea {
+  
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  .parpadea2 {
+  
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  .text2 {
+    font-size:10px;
+    font-weight:bold;    
+    color:#71d90b;
+    text-transform:uppercase;
+  }
+  .discrepancia {
+    font-size:10px;
+    font-weight:bold;    
+    color:red;
+    text-transform:uppercase;
+  }
+  .text {
+    font-size:18px;
+    font-weight:bold;
+    margin-left: 20%;
+    color:#71d90b;
+    text-transform:uppercase;
+  }
+  .Fixedpage {
+    margin-top: 5%;
+    width: calc(100% - 235px);
+  }
+  @-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+  }
+  
+  @keyframes parpadeo {  
+    0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
